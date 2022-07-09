@@ -1,0 +1,65 @@
+#hero {
+  padding-top: 6rem;
+  min-height: 70vh;
+  margin-bottom: 8rem;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 3rem;
+}
+
+.hero__left--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.hero__left--item h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  color: var(--dark-color);
+  margin-bottom: 2.5rem;
+  line-height: 8rem;
+}
+
+.hero__left--item p {
+  color: (--secondary-color);
+  font-size: 2rem;
+}
+
+.search__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  background-color: var(--third-color);
+  border-radius: 1rem;
+}
+.search__box input {
+  padding: 10px 10px;
+  width: 90%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #eee;
+}
+.search__box input::placeholder {
+  color: #ccc;
+  font-family: "Segoe UI";
+}
+.search__box i {
+  font-size: 1.9rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.hero__right--item {
+  opacity: 0.9rem;
+}
